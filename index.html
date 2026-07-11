@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment8</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="./css/fontawesome-free-7.2.0-web/css/all.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="bg-body-color">
+    <header>
+      <nav
+        id="navbar-example2"
+        class="navbar navbar-expand-md bg-white shadow py-3 px-4 w-100 z-3 position-fixed align-items-center">
+        <div class="container-fluid">
+          <div class="navbar-logo d-flex">
+            <div
+              class="bg-orange-color d-flex justify-content-center align-items-center me-12 text-center rounded-circle w-48-h-48">
+              <i class="fa-solid fa-utensils text-white"></i>
+            </div>
+            <div>
+              <h1 class="fw-bold fs-4 m-0">What's For Dinner</h1>
+              <p class="lead m-0 fs-6">Your daily meal inspiration</p>
+            </div>
+          </div>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div class="ms-auto mt-3 mt-md-0 py-3 py-md-0 d-block d-md-flex align-items-center text-black">
+              <div class="nav-hover mb-3 mb-md-0">
+                <i class="fa-solid fa-bookmark lead fs-5 me-2 me-md-3"></i>
+                <span class="lead fs-6 d-md-none">Saved Recipes</span>
+              </div>
+              <div class="nav-hover mb-3 mb-md-0">
+                <i class="fa-solid fa-clock-rotate-left lead fs-5 me-2 me-md-3"></i>
+                <span class="lead fs-6 d-md-none">Recent</span>
+              </div>
+              <div class="nav-hover mb-3 mb-md-0">
+                <i class="fa-solid fa-gear lead fs-5 me-2 me-md-3"></i>
+                <span class="lead fs-6 d-md-none">Setting</span>
+              </div>
+              <div class="d-nav-hover d-flex align-items-center">
+                <div class="w-32-h-32 border border-1 border-orange rounded-circle me-2 me-md-3 me-md-0">
+                  <img src="./images/avatar-4.jpg" class="w-100 object-fit-cover rounded-circle" alt="avatar" />
+                </div>
+                <span class="lead fs-6 d-md-none">Profile</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="py-120 px-4">
+      <section class="hero rounded-3" id="hero">
+        <div class="container bg-white min-vh-100">
+          <div id="recipeContainer" class="row"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
